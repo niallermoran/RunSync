@@ -1,0 +1,79 @@
+{
+    "type": "object",
+    "properties": {
+        "body": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "avgSpeed": {
+                        "type": "number"
+                    },
+                    "calories": {
+                        "type": "number"
+                    },
+                    "createTimeTicks": {
+                        "type": "number"
+                    },
+                    "deviceid": {
+                        "type": "string"
+                    },
+                    "distance": {
+                        "type": "number"
+                    },
+                    "duration": {
+                        "type": "number"
+                    },
+                    "endTimeTicks": {
+                        "type": "number"
+                    },
+                    "exerciseType": {
+                        "type": "number"
+                    },
+                    "maxSpeed": {
+                        "type": "number"
+                    },
+                    "startTimeTicks": {
+                        "type": "number"
+                    },
+                    "timeOffset": {
+                        "type": "number"
+                    },
+                    "uniqueId": {
+                        "type": "string"
+                    },
+                    "updateTimeTicks": {
+                        "type": "number"
+                    },
+                    "createTime": {
+                        "type": "number"
+                    },
+                    "createTimeText": {
+                        "type": "string"
+                    },
+                    "endTime": {
+                        "type": "number"
+                    },
+                    "endTimeText": {
+                        "type": "string"
+                    },
+                    "exerciseTypeText": {
+                        "type": "string"
+                    },
+                    "startTime": {
+                        "type": "number"
+                    },
+                    "startTimeText": {
+                        "type": "string"
+                    },
+                    "updateTime": {
+                        "type": "number"
+                    },
+                    "updateTimeText": {
+                        "type": "string"
+                    }
+                }
+            }
+        }
+    }
+}

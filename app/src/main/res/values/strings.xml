@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">RunSync</string>
+
+    <string name="desc">Daily Step Count</string>
+    <string name="title1">Total</string>
+    <string name="unit1">Steps</string>
+
+    <string name="move_before">Move Day Before</string>
+    <string name="move_next">Move Day Next</string>
+
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="connect_to_shealth">Connect to Samsung Health</string>
+    <string name="connect_to_strava">Connect to Strava</string>
+    <string name="settings_menu_item">Settings</string>
+
+    <string name="notice">Notice</string>
+    <string name="msg_perm_acquired">All permissions should be acquired</string>
+    <string name="msg_conn_not_available">Connection with Samsung Health is not available</string>
+    <string name="msg_disconnected">Disconnected from Samsung Health</string>
+    <string name="msg_connected">Connected to Samsung Health</string>
+    <string name="msg_connected_permissions_acquired">Permissions Acquired for Samsung Health</string>
+    <string name="msg_connected_permissions_notacquired">Permissions Not Acquired for Samsung Health</string>
+    <string name="msg_connected_nosource">No data source set, use menu to connect.</string>
+    <string name="msg_req_install">Please install Samsung Health</string>
+    <string name="msg_req_upgrade">Please upgrade Samsung Health</string>
+    <string name="msg_req_enable">Please enable Samsung Health</string>
+    <string name="msg_req_agree">Please agree to Samsung Health policy</string>
+    <string name="msg_req_available">Please make Samsung Health available</string>
+    <string name="msgActivitiesCount">activities read!</string>
+    <string name="msgPush">Push</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">URL to POST the Samsung Health data to</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="label_url_message">RunSync gets your exercise data from Samsung Health and posts it in json format to a URL of your choice</string>
+    <string name="txturl_hint">Please enter a valid URL. </string>
+    <string name="msg_request_permissions">Could not request the correct permissions</string>
+    <string name="msg_problem_posting">\"Problem posting data to URL  \"</string>
+    <string name="msg_invalidurl">Invalid URL defined</string>
+    <string name="msg_connect_failure">\"Failed to connect to URL \"</string>
+    <string name="msgPermissionsEssential">Permissions must be granted to read data from Samsung Health</string>
+    <string name="msg_runinbackground">Run every hour in background</string>
+    <string name="msg_inaccessibleurl">This url is not valid or is not accessible</string>
+    <string name="lbl_url">URL:</string>
+    <string name="msg_notcategorydesc">Notifications from background services</string>
+    <string name="msg_notname">Background Services</string>
+    <string name="msg_not_title">RunSync Background Service</string>
+    <string name="msg_not_text">Posting data every hour</string>
+    <string name="msg_not_ticker">RunSync: Posting data every hour</string>
+    <string name="lbl_delete">Clear the URL text field</string>
+    <string name="msg_post_success">Data posted successfully</string>
+    <string name="msg_errnotconnected">Service %s must be connected and is not</string>
+    <string name="msg_errnopermissions">Service %s must have permissions accepted by the user</string>
+    <string name="ctl_syncbutton">Sync</string>
+</resources>
